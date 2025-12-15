@@ -6,7 +6,15 @@
 
 Automated testing project untuk website [Saucedemo](https://www.saucedemo.com/) menggunakan **Selenium WebDriver** dan **Pytest**.
 
+## 🎥 Demo Preview
+
+![Demo Animation](./assets/demo/test_demo.gif)
+
 ## 📋 Test Cases
+
+![Test Scenario](./assets/screenshots/testcase_preview.png)
+
+> 📥 **[Download Full Test Case (PDF)](./assets/screenshots/testcase.pdf)**
 
 Project ini mencakup 4 test case utama yang mensimulasikan alur belanja lengkap:
 
