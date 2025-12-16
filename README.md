@@ -50,8 +50,8 @@ QA_Saucedemo/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/kei2511/QA_Saucedemo.git
-cd QA_Saucedemo
+git clone https://github.com/kei2511/saucedemo_automation_testing.git
+cd saucedemo_automation_testing
 ```
 
 ### 2. Install Dependencies
@@ -96,7 +96,7 @@ pytest test_template.py -v --html=laporan.html
 
 **Total: 4 tests passed** dalam ~9 detik ⏱️
 
-> 🔗 **[Lihat Report Interaktif (GitHub Pages)](https://kei2511.github.io/QA_Saucedemo/laporan.html)**
+> 🔗 **[Lihat Report Interaktif (GitHub Pages)](https://kei2511.github.io/saucedemo_automation_testing/laporan.html)**
 
 ### Generate Report
 
