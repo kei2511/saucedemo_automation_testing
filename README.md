@@ -79,9 +79,32 @@ pytest test_template.py -v
 pytest test_template.py -v --html=laporan.html
 ```
 
-## 📊 Test Report
+## 📊 Test Results
 
-Setelah menjalankan test dengan flag `--html`, hasil report akan tersedia di file `laporan.html`.
+### Preview
+
+![Laporan Hasil Test](./assets/screenshots/Laporan%20Hasil%20Test.png)
+
+### Summary
+
+| Test | Deskripsi | Hasil | Durasi |
+|------|-----------|-------|--------|
+| TC-01 | Login dengan kredensial valid | ✅ Passed | 6s |
+| TC-02 | Tambah 2 barang ke keranjang | ✅ Passed | 220ms |
+| TC-03 | Hapus 1 barang dari keranjang | ✅ Passed | 141ms |
+| TC-04 | Checkout sampai selesai | ✅ Passed | 3s |
+
+**Total: 4 tests passed** dalam ~9 detik ⏱️
+
+> 🔗 **[Lihat Report Interaktif (GitHub Pages)](https://kei2511.github.io/QA_Saucedemo/laporan.html)**
+
+### Generate Report
+
+Jalankan test dengan flag `--html` untuk generate report:
+
+```bash
+pytest test_template.py -v --html=laporan.html
+```
 
 ## 🎯 Fitur
 
